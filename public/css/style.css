@@ -15,7 +15,7 @@
     1. IMPORT FONTS
     2. IMPORT CSS
     3. STARTUP
-    4. HEADER 
+    4. HEADER
     5. NAVBAR
     6. SECTIONS
     7. FEATURES
@@ -48,10 +48,10 @@
     IMPORT CSS FILES
 ******************************************/
 
-@import url(css/animate.css);
-@import url(css/chat.css);
-@import url(css/carousel.css);
-@import url(css/font-awesome.css);
+@import url(./animate.css);
+@import url(./chat.css);
+@import url(./carousel.css);
+@import url(./font-awesome.css);
 
 /******************************************
     STARTUP
@@ -101,7 +101,7 @@ h6 {
 }
 
 a {
-    color: #000000;
+    color: #BFDC7A;
     text-decoration: none !important;
     outline: none;
     -moz-transition: all 0.6s ease-in-out;
@@ -1569,7 +1569,7 @@ div.frameTC {
     position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
     padding: 60px 0;
-    background: url(images/fb.png) no-repeat left center #2d3033;
+   /*  background: url(../images/fb.png) no-repeat left center #2d3033; */
 }
 
 .footer ul {
@@ -4112,7 +4112,7 @@ blockquote cite {
 
 .dmtop {
     background-color: #000000;
-    background-image: url(images/arrow.png);
+    background-image: url(../images/arrow.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     z-index: 9999;
@@ -4495,4 +4495,14 @@ body,
 p,
 li {
     font-family: "Open Sans";
+}
+
+
+a.saiba-mais strong {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a.saiba-mais:hover strong {
+    color: green;
 }
